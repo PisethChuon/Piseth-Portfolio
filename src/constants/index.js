@@ -2,10 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a dedicated junior software developer interested in building efficient and scalable web applications. With a solid foundation in programming, I have developed skills in front-end technologies like React and back-end technologies such as Node.js, Laravel, and MySQL. My goal is to continue growing my expertise and increase to App Developer.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a highly motivated individual with a strong work ethic and a commitment to excellence. I am determined to succeed and I am always looking for new challenges to help me grow both personally and professionally. I am passionate about learning new things and I enjoy discovering new ways to solve problems. With 3 years of student at university, I have worked with a variety of technologies, including React, Flutter, Next.js, Node.js, MySQL, and PostgreSQL. My journey in web development began with a deep curiosity for how things work. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
 export const EXPERIENCES = [
   {
@@ -40,37 +41,44 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Ai Traffic Simulation",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Developed a simulation for AI-driven traffic light control to optimize traffic flow and reduce congestion.",
+    technologies: ["Python", "PyTorch", "Reinforcement Learning"],
   },
   {
-    title: "Task Management App",
+    title: "Doctor Appointment",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "An application for appointment task, dashbord for patient traking, add and ignore doctors.",
+    technologies: ["React", "Laravel", "Vite", "MySql", "Tailwind"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["React", "Vite", "Framer Motion", "Tailwind"],
   },
   {
     title: "Blogging Platform",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating and publishing blog posts, with features like rich text editing, deleting post, and Login.",
+    technologies: ["React", "Tailwind"],
+  },
+  {
+    title: "AI Image Generator",
+    image: project5,
+    description:
+      "An AI technology that is used to generate new images by learning patterns from existing data is known as an AI image generator app.",
+    technologies: ["React JS", "OpenAI api"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Sangkat Ruessei Kaev, Phnom Penh",
+  phoneNo: "+855 81 703 066 ",
+  email: "chuonpiseth05@gmail.com",
 };
